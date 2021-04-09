@@ -8,6 +8,8 @@ public class Story {
 	private String score;
 	private String time;
 	private String by;
+	
+	@JsonIgnore
 	private List<String> kids;
 
 	/**
